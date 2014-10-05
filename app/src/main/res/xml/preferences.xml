@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_misc">
+
+        <EditTextPreference
+            android:key="pref_problems"
+            android:title="@string/pref_problems_title"
+            android:inputType="number"
+            android:defaultValue="50" />
+
+        <EditTextPreference
+            android:key="pref_retries"
+            android:title="@string/pref_retries_title"
+            android:inputType="number"
+            android:defaultValue="2" />
+
+        <SwitchPreference
+            android:key="pref_op_text"
+            android:title="@string/pref_op_title"
+            android:summaryOff="@string/pref_op_text_summary_off"
+            android:summaryOn="@string/pref_op_text_summary_on"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_operations">
+
+        <SwitchPreference
+            android:key="pref_add_enable"
+            android:title="@string/pref_add_enable_title"
+            android:summaryOff="@string/pref_add_enable_summary_off"
+            android:summaryOn="@string/pref_add_enable_summary_on"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:defaultValue="true" />
+
+        <EditTextPreference
+            android:key="pref_add_max"
+            android:title="@string/pref_max_title"
+            android:dependency="pref_add_enable"
+            android:inputType="numberSigned"
+            android:defaultValue="100" />
+
+        <EditTextPreference
+            android:key="pref_add_min"
+            android:title="@string/pref_min_title"
+            android:dependency="pref_add_enable"
+            android:inputType="numberSigned"
+            android:defaultValue="0" />
+
+        <SwitchPreference
+            android:key="pref_sub_enable"
+            android:title="@string/pref_sub_enable_title"
+            android:summaryOff="@string/pref_sub_enable_summary_off"
+            android:summaryOn="@string/pref_sub_enable_summary_on"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:defaultValue="true" />
+
+        <EditTextPreference
+            android:key="pref_sub_max"
+            android:title="@string/pref_max_title"
+            android:dependency="pref_sub_enable"
+            android:inputType="numberSigned"
+            android:defaultValue="100" />
+
+        <EditTextPreference
+            android:key="pref_sub_min"
+            android:title="@string/pref_min_title"
+            android:dependency="pref_sub_enable"
+            android:inputType="numberSigned"
+            android:defaultValue="0" />
+
+        <SwitchPreference
+            android:key="pref_mul_enable"
+            android:title="@string/pref_mul_enable_title"
+            android:summaryOff="@string/pref_mul_enable_summary_off"
+            android:summaryOn="@string/pref_mul_enable_summary_on"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:defaultValue="true" />
+
+        <EditTextPreference
+            android:key="pref_mul_max"
+            android:title="@string/pref_max_title"
+            android:dependency="pref_mul_enable"
+            android:inputType="numberSigned"
+            android:defaultValue="100" />
+
+        <EditTextPreference
+            android:key="pref_mul_min"
+            android:title="@string/pref_min_title"
+            android:dependency="pref_mul_enable"
+            android:inputType="numberSigned"
+            android:defaultValue="0" />
+
+        <SwitchPreference
+            android:key="pref_div_enable"
+            android:title="@string/pref_div_enable_title"
+            android:summaryOff="@string/pref_div_enable_summary_off"
+            android:summaryOn="@string/pref_div_enable_summary_on"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:defaultValue="true" />
+
+        <EditTextPreference
+            android:key="pref_div_max"
+            android:title="@string/pref_max_title"
+            android:dependency="pref_div_enable"
+            android:inputType="numberSigned"
+            android:defaultValue="100" />
+
+        <EditTextPreference
+            android:key="pref_div_min"
+            android:title="@string/pref_min_title"
+            android:dependency="pref_div_enable"
+            android:inputType="numberSigned"
+            android:defaultValue="0"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="pref_on">An</string>
+    <string name="pref_off">Aus</string>
+
+    <string name="title_activity_settings">selMath - Einstellungen</string>
+
+    <string name="pref_cat_misc">Allgemeine Einstellungen</string>
+
+    <string name="pref_problems_title">Aufgaben pro Spiel</string>
+
+    <string name="pref_op_title">Rechenzeichen</string>
+    <string name="pref_op_text_summary_off">Operator als Text</string>
+    <string name="pref_op_text_summary_on">Operator als Symbol</string>
+
+    <string name="pref_retries_title">Lösungsversuche pro Aufgabe</string>
+
+    <string name="pref_cat_operations">Rechenarten</string>
+
+    <string name="pref_max_title">Maximum</string>
+    <string name="pref_min_title">Minimum</string>
+
+    <string name="pref_add_enable_title">Addition</string>
+    <string name="pref_add_enable_summary_on">Plus-Aufgaben aktiviert</string>
+    <string name="pref_add_enable_summary_off">Plus-Aufgaben deaktiviert</string>
+
+    <string name="pref_sub_enable_title">Subtraktion</string>
+    <string name="pref_sub_enable_summary_on">Minus-Aufgaben aktiviert</string>
+    <string name="pref_sub_enable_summary_off">Minus-Aufgaben deaktiviert</string>
+
+    <string name="pref_mul_enable_title">Multiplikation</string>
+    <string name="pref_mul_enable_summary_on">Mal-Aufgaben aktiviert</string>
+    <string name="pref_mul_enable_summary_off">Mal-Aufgaben deaktiviert</string>
+
+    <string name="pref_div_enable_title">Division</string>
+    <string name="pref_div_enable_summary_on">Geteilt-Aufgaben aktiviert</string>
+    <string name="pref_div_enable_summary_off">Geteilt-Aufgaben deaktiviert</string>
+
+</resources>
