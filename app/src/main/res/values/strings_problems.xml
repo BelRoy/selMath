@@ -3,4 +3,13 @@
 
     <string name="problemNumber">Aufgabe %1$d von %2$d</string>
 
+    <string-array name="operators">
+        <item>plus</item>
+        <item>minus</item>
+        <item>mal</item>
+        <item>geteilt durch</item>
+    </string-array>
+
+    <string name="equals">ist gleich</string>
+
 </resources>
